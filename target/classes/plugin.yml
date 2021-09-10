@@ -1,0 +1,29 @@
+name: NitePunishments
+version: 1.0-SNAPSHOT
+main: me.nitecell.nitepunishments.NitePunishments
+api-version: 1.13
+authors: [Nitecell]
+description: NitePunishments
+
+commands:
+  kick:
+    usage: /<command>
+    aliases: [boot]
+    description: Kick Command
+  ban:
+    usage: /<command>
+    description: Ban Command
+  unban:
+    usage: /<command>
+    description: Unban Command
+
+permissions:
+  nitepunishments.kick:
+    description: This permission gives access to the kick command.
+    default: op
+  nitepunishments.ban:
+    description: This permission gives access to the ban command.
+    default: op
+  nitepunishments.unban:
+    description: This permission gives access to the unban command.
+    default: op
